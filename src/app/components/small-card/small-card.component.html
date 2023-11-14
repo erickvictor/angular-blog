@@ -9,9 +9,9 @@
     </div>
 
     <div class="small-card__content">
-      <h4><a href="#">{{ cardTitle }}</a></h4>
+      <h4><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h4>
       <p>
-        <a href="#">
+        <a [routerLink]="['content', Id]">
           {{ cardContent }}
         </a>
       </p>
